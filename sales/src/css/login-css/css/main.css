@@ -4,41 +4,41 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+/* 
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Medium;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Bold;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/poppins/Poppins-Bold.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Bold;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-SemiBold;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Regular;
+  font-family: Comic-Sans-MS;
   src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
-}
+} */
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -52,12 +52,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -158,14 +158,14 @@ iframe {
 /*==================================================================
 [ Text ]*/
 .txt1 {
-  font-family: Montserrat-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 13px;
   line-height: 1.4;
   color: #555555;
 }
 
 .txt2 {
-  font-family: Montserrat-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 13px;
   line-height: 1.4;
   color: #999999;
@@ -267,7 +267,7 @@ iframe {
 .login100-form-title {
   width: 100%;
   display: block;
-  font-family: Poppins-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
@@ -296,7 +296,7 @@ iframe {
 }
 
 .label-input100 {
-  font-family: Montserrat-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 18px;
   color: #999999;
   line-height: 1.2;
@@ -319,7 +319,7 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Montserrat-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 18px;
   color: #555555;
   line-height: 1.2;
@@ -410,7 +410,7 @@ input.input100 {
 }
 
 .label-checkbox100 {
-  font-family: Poppins-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 13px;
   color: #999999;
   line-height: 1.4;
@@ -423,7 +423,7 @@ input.input100 {
 
 .label-checkbox100::before {
   content: "\f00c";
-  font-family: FontAwesome;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 13px;
   color: transparent;
 
@@ -481,7 +481,7 @@ input.input100 {
   border-radius: 10px;
   background: #6675df;
 
-  font-family: Montserrat-Bold;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 12px;
   color: #fff;
   line-height: 1.2;
@@ -562,7 +562,7 @@ input.input100 {
   right: 12px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -579,7 +579,7 @@ input.input100 {
 
 .alert-validate::after {
   content: "\f12a";
-  font-family: FontAwesome;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   display: block;
   position: absolute;
   z-index: 110;
