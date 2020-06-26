@@ -1,0 +1,20 @@
+.Hamburger{
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.Hamburger div{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background-color: blue;
+}
+
+@media(min-width: 701px){
+    .Hamburger{
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.Screen{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Screen:focus,
+.Screen:active,
+.Screen:hover{
+    background-color: rgb(206, 205, 205);
+    color: black;
+}

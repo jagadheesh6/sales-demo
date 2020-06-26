@@ -1,0 +1,42 @@
+.Header{
+    width: 85%;
+    margin-top: 15px;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    padding: 8px;
+    background-color: white;
+}
+
+.Header .inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    color: white;
+    background-color: rgb(32, 151, 225);
+    border-radius: 10px;
+}
+
+@media(max-width: 700px){
+    .Header{
+        width: 98%;
+        right: 3px;
+    }
+    .inner{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1000px) and (min-width: 701px){
+    .Header{
+        width: 70%;
+    }
+}

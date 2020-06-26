@@ -1,0 +1,44 @@
+.SideDrawer{
+    width: 14%;
+    margin-top: 15px;
+    height: calc(100vh - 103px);
+    border-radius: 15px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(32, 151, 225);
+}
+
+.logo{
+    width: calc(100% + 2px);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 14px;
+    margin-top: -2px;
+    margin-left: -1px;
+    background-color: white;
+}
+
+.Open{
+    transform: translate(0);
+}
+
+.Close{
+    transform: translate(-100vw);
+}
+
+@media(max-width: 700px){
+    .SideDrawer{
+        position: fixed;
+        left: -100vw;
+    }
+}
+
+@media(max-width: 1000px) and (min-width: 701px){
+    .SideDrawer{
+        width: 29%;
+    }
+}
